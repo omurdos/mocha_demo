@@ -6,7 +6,7 @@ const assert = require("assert");
 //Multiply two numbers..
 
 describe("Mathmatical testing", function(){
-    it("Addition of two number", ()=>{
+    it.skip("Addition of two number", ()=>{
         var a = 10;
         var b = 10;
         var result = a + b;
